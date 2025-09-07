@@ -24,3 +24,14 @@ var obj: { name: string; age: number } = { name: "Alice", age: 30 };
 // using generic syntax
 let numbers: Array<number> = [1, 2, 3];
 let names: Array<string> = ["Alice", "Bob", "Charlie"];
+
+
+// Using objects 
+ interface Person {
+  name: string;
+  age: number;
+}
+ 
+function greet(person: Person) {
+  return "Hello " + person.name;
+}
