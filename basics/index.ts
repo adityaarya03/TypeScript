@@ -35,3 +35,55 @@ let names: Array<string> = ["Alice", "Bob", "Charlie"];
 function greet(person: Person) {
   return "Hello " + person.name;
 }
+
+let age: number = 25;
+let name: string = "Alice";
+let isActive: boolean = true;
+
+function add(a: number, b: number): number {
+  return a + b;
+}
+
+let numbers: number[] = [1, 2, 3];
+let tuple: [string, number] = ["Alice", 25];
+
+interface Person {
+  name: string;
+  age: number;
+}
+
+const user: Person = { name: "Bob", age: 30 };
+
+class Animal {
+  name: string;
+  constructor(name: string) {
+    this.name = name;
+  }
+  speak(): void {
+    console.log(`${this.name} makes a sound.`);
+  }
+}
+
+enum Direction {
+  Up,
+  Down,
+  Left,
+  Right
+}
+let message = "Hello"; // inferred as string
+let value: string | number;
+interface A { a: number }
+interface B { b: number }
+type AB = A & B;
+
+function identity<T>(arg: T): T {
+  return arg;
+}
+
+type Point = { x: number; y: number };
+
+// math.ts
+
+
+// main.ts
+import { sum } from "./math.ts";
