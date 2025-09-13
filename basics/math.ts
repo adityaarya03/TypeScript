@@ -1,3 +1,6 @@
-export const sum = function(a: number, b: number): number {
+function sum(a: number, b: number): number {
   return a + b;
 }
+function stringSum(a:string,b:string):string{
+  return a+b;
+};
