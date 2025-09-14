@@ -86,7 +86,7 @@ type Point = { x: number; y: number };
 
 
 // main.ts
-import { sum } from "./math.ts";
+import { sum } from "./math.ts"; 
 
 console.log("ssh");
 console.log("day8")
