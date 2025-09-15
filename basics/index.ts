@@ -90,3 +90,5 @@ import { sum } from "./math.ts";
 
 console.log("ssh");
 console.log("day8")
+console.log("timpepass")
+sum(1,2);

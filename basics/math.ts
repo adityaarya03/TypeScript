@@ -4,3 +4,6 @@ function sum(a: number, b: number): number {
 function stringSum(a:string,b:string):string{
   return a+b;
 };
+
+export sum;
+export stringSum;
